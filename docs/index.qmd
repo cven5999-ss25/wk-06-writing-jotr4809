@@ -2,12 +2,13 @@
 title: "A minimal example"
 date: today
 author: First Last 
-format:
-  html:
-    toc: true
+format: html
 execute:
   warning: false
+  echo: true
 editor: visual
+editor_options: 
+  chunk_output_type: console
 ---
 
 ## Data
@@ -16,6 +17,9 @@ For this analysis we'll use the penguins dataset from the palmerpenguins R packa
 
 ```{r}
 #| label: load-packages
+#| echo: true
+
+#echo: false #Allow us to hide code, we can put it at the beginning of the YALM or for specific chunks of codes 
 
 library(tidyverse)
 library(ggthemes)
