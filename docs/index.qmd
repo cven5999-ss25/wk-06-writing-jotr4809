@@ -19,7 +19,9 @@ For this analysis we'll use the penguins dataset from the palmerpenguins R packa
 #| label: load-packages
 #| echo: true
 
+#format: revealjs para formato de presentaciones 
 #echo: false #Allow us to hide code, we can put it at the beginning of the YALM or for specific chunks of codes 
+#echo-fold: true para que se abra o cierre la ventana de codigo
 
 library(tidyverse)
 library(ggthemes)
